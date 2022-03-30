@@ -7,28 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
+        .header {
             margin: 5px;
             padding: 5px;
+            
 
         }
 
         .header h2 {
-            background-color: grey;
+            background-color: lightgrey;
             text-align: left;
             padding: 5px 15px 5px 3px;
             text-indent: 1%;
             margin: 0px;
+            z-index: 2;
         }
 
          .header ul {
             background-color: black;
-            width: 520px;
-            height: 30px;
+            width: 882px;
+            height: 28px;
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: visible;
+            z-index: 1;
             
             
             
@@ -37,16 +40,72 @@
 
         .header li {
             float: left;
-            padding: 5px 15px 5px 3px;
+            padding: 10px 15px 5px 3px;
             background-color: #0000;
             color: white;
-            border: 2px solid white;
+            border: 1px solid white;
+            z-index: -1;
+            height: 28px;
             
+            }
+            
+        .content h2 {
+            color: hsl(197, 70%, 41%);
+         }
+        .content p {
+            
+            font-size: 13px;
+            
+    
+        }
+        .middle .content {
+            width: 63%;
+            height: 30%;
+            
+            border: 2px solid red;
+            margin: 1px;
+            padding: 0% 40% 4% 1%;
+            z-index: -2;
+            flex: 1;
+            
+         }
+        .container h3 {
+            color: hsl(197, 70%, 41%);
+        
+        }
 
         
+        .container p {
+          font-size: 13px;
+          padding: 1px 15px 1px 3px;
         
-  
- 
+        }
+        .middle .container {
+            background-color: lightgrey;
+            
+            width: 37.8%;
+            height: 30.3%;
+            border: 5px solid lightgrey;
+            z-index: 3;
+            margin: 0.1px;
+            border: 1px solid lightgrey;
+            padding: 0.1% 0.1% 45% 0.4%;
+            
+        
+            
+        }
+        .middle  {
+       display: flex;
+       }
+        
+        a:link {
+            background-color: black;
+        }
+        a:hover {
+        background-color: green;
+           }
+        a:visited {
+            background-color: light pink;
         }
     </style>
 </head>
@@ -60,10 +119,25 @@
                     <li> home </li>
                     <li> about</li>
                     <li> services</li>
-                    <li> about us</li>
+                    <li><a href="default.asp">about us</a></li>
                 </ul>
-            </div>
         </div>
+        <div class="middle">
+        <div class="content">
+            <h2> Page heading</h2>
+            <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, expedita odio. Quod aliquid tempore expedita praesentium saepe autem neque esse, necessitatibus, commodi optio odit dignissimos debitis, deleniti culpa quia nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, iure quae iusto ullam adipisci, nobis nulla ipsum odio accusamus in cum eius, voluptatum nemo aspernatur cupiditate ut doloribus repellat consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quisquam sunt? Corrupti nam dolorem at beatae illo eveniet sapiente voluptates quos! Necessitatibus delectus iusto obcaecati accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, quis doloremque pariatur voluptatum nemo, vero a officia similique repellendus ut, suscipit quo? Modi molestias vitae tenetur praesentium sunt distinctio ab? Sint dicta numquam enim? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatibus recusandae, in impedit illo beatae unde dignissimos quia dicta neque ratione error veritatis aliquid tempore minima ipsum reiciendis molestias sed? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nam magni nesciunt veniam odio sapiente ipsum quod ex! Tenetur sapiente quod quisquam iste veritatis ea adipisci at fugiat officia incidunt!</p>
+            <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus esse sunt cum sed provident a enim odit saepe consectetur ipsam ad quo consequatur cupiditate adipisci, minima rem, itaque repellendus natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo debitis voluptate dolores doloribus, optio temporibus distinctio alias? Velit laborum, illum magnam fugiat doloremque aliquam alias repudiandae reprehenderit, consectetur, odio corrupti. lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolore beatae sint facilis praesentium, error velit laboriosam dolorum in eos alias provident earum consequatur mollitia rerum ab veritatis? Quo, atque?
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed aliquam ducimus? Minima iste veritatis, incidunt consequuntur numquam non sunt neque autem odit, nihil laboriosam laudantium minus cumque animi! Dolorum!
+                  </p>
+            <p>  Lorem ips Quae error molestiae natus consectetur, saepe atque fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga veritatis ea possimus provident minus aspernatur repellendus id rem consectetur ipsa, consequatur natus, perferendis vel sunt delectus sequi repellat placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae numquam accusamus aut provident, quaerat unde maxime optio molestias dignissimos veniam dolor, cumque nam et harum fugiat voluptatibus incidunt. Laborum, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora id dolore praesentium dolor quo culpa eveniet, rem minima, impedit aut incidunt sed quae fugiat aliquid quas at harum eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nisi sequi accusamus dolor molestias at impedit quibusdam incidunt, mollitia aspernatur. Reiciendis voluptatibus, nobis ipsa similique numquam neque veniam quas libero! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse id fuga omnis, ratione recusandae asperiores consectetur ullam repellat quisquam sed, sapiente autem optio vero nulla suscipit in inventore cumque. Ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut laboriosam aperiam veritatis delectus iure! Optio, sed repellat quasi rem numquam porro aliquid facere dicta reiciendis. Exercitationem tenetur aliquid accusantium cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repellendus perspiciatis harum. Illo deleniti vel incidunt? Nisi expedita voluptas molestias facere tempore quo doloribus eum? Delectus impedit maxime at facere.</p>
+            </div>
+        <div class="container" >
+            <h3>Aside heading</h3>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores suscipit cupiditate iure quaerat quos doloribus nostrum voluptates ducimus possimus, ipsa, tenetur assumenda debitis, expedita ratione sit optio commodi reiciendis vero?</p>
+            </div>
+            </div>
+            
+        
     </div>
 </body>
 
