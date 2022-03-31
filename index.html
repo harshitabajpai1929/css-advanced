@@ -21,11 +21,12 @@
             text-indent: 1%;
             margin: 0px;
             z-index: 2;
+            width: 100%;
         }
 
          .header ul {
             background-color: black;
-            width: 882px;
+            width: 100%;
             height: 28px;
             list-style-type: none;
             margin: 0;
@@ -47,26 +48,28 @@
             z-index: -1;
             height: 28px;
             
+            
             }
             
-        .content h2 {
+        .middle .content h2 {
             color: hsl(197, 70%, 41%);
          }
-        .content p {
+        .middle .content p {
             
             font-size: 13px;
             
     
         }
         .middle .content {
-            width: 63%;
-            height: 30%;
+            width: 70%;
+            height: 2%;
             
-            border: 2px solid red;
-            margin: 1px;
-            padding: 0% 40% 4% 1%;
+            border: 1px solid white;
+            margin: 0%;
+            padding: 0% 8% 4% 0%;
             z-index: -2;
             flex: 1;
+            float: left;
             
          }
         .container h3 {
@@ -84,7 +87,7 @@
             background-color: lightgrey;
             
             width: 37.8%;
-            height: 30.3%;
+            height: 70.3%;
             border: 5px solid lightgrey;
             z-index: 3;
             margin: 0.1px;
@@ -106,6 +109,17 @@
            }
         a:visited {
             background-color: light pink;
+        }
+        .footer {
+            width: 100%;
+            padding:0.1% 0.2% 5% 10%;
+           border: 5px solid gray;
+           margin: 0%;
+           background-color: grey;
+        }
+        .footer p {
+            float: right;
+            font-size: 8;
         }
     </style>
 </head>
@@ -136,7 +150,10 @@
              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores suscipit cupiditate iure quaerat quos doloribus nostrum voluptates ducimus possimus, ipsa, tenetur assumenda debitis, expedita ratione sit optio commodi reiciendis vero?</p>
             </div>
             </div>
-            
+          <div class="footer">
+            <p>copyright @ site name, 20xx</p>
+
+          </div>  
         
     </div>
 </body>
