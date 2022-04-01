@@ -12,7 +12,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .main{
-   margin: 4%;
+   margin: 3.5%;
 }
 .header{
     padding: 1%;
@@ -21,43 +21,46 @@
 }
 .header h1{
     font-weight:bolder;
+    font-size: 13;
 }
 li{
     display: inline;
-    padding: 20px;
+    padding: 19.5px;
 }
 li a{
     color: blue;
-    font-weight:bold ;
+   
+    font-size: 7;
 }
 
-.hero{
+.para{
     background-color: #eeeeee;
 }
-.hero__col1{
+.para-inside{
     padding: 5% 3%;
-    width: 25%;
+    width: 24.6%;
     line-height: 1.5;
 }
-.hero__col1 > p{
-    padding: 15px 0;
-    font-weight: 500;
+.para-inside > p{
+    padding: 14px 0;
+    font-weight: 400;
+    font-size: 7;
 }
-.btn{
+.button{
     margin-top: 10px;
-    padding: 5px 20px;
+    padding: 4px 18px;
 }
 
-.product{
+.container{
     display: flex;
 }
-.card{
+.part{
     padding: 3%;
     text-align: center;
 }
 .img{
     width: 100%;
-    height: 140px;
+    height: 135px;
     background-color: #eeeeee;
 }
 .heading{
@@ -73,52 +76,55 @@ li a{
     padding: 4%  12%;
     display:flex ;
 }
-.click{
-    width: 70%;
+.submit{
+    width: 68%;
     display: flex;
 }
-.sub{
+.subscribe{
     width: 30%;
 }
 
-.sub > p{
-    font-size: 35px;
+.subscribe > p{
+    font-size: 34px;
     font-weight: bolder;
 }
-.sub_input{
+.palette{
     width: 70%;
-    height: 38px;
+    height: 37px;
     border-radius: 2px;
     border: 1px solid black;
 }
 input::placeholder{
     color: black;
     padding-left: 2px;
-    font-size: 20px;
+    font-size: 19px;
 }
-.sub_btn{
+.inside-button{
     width:150px;
     height: 40px;
     color: #fff;
     background-color: #288acf;
     font-weight:bold ;
-    font-size: large;
+    font-size: 8;
     border: none;
     margin-left: 2px;
 }
 
-.copyright{
-    padding: 4%;
+.copyright-block{
+    padding: 3.5%;
+    font-size: 5;
+    
 }
+
 </style>
 </head>
 <body>
     <div class="main">
         <div class="header">
-          <div class="log">
+          <div class="site-part">
             <h1>Site Logo</h1>
           </div>
-          <div class="links">
+          <div class="options">
             <ul>
               <li><a href="">Products</a></li>
               <li><a href="">Solutions</a></li>
@@ -127,34 +133,34 @@ input::placeholder{
           </div>
         </div>
   
-        <div class="main__container">
-          <div class="hero">
-            <div class="hero__col1">
+        <div class="content">
+          <div class="para">
+            <div class="para-inside">
               <h2>We Power eCommerce</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua
               </p>
-              <button class="btn">Learn More</button>
+              <button class="button">Learn More</button>
             </div>
           </div>
   
-          <div class="product">
-            <div class="card">
+          <div class="container">
+            <div class="part">
               <div class="img"></div>
               <h2 class="heading">Heading 1</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               <p class="learn">LEARN MORE</p>
             </div>
   
-            <div class="card">
+            <div class="part">
               <div class="img"></div>
               <h2 class="heading">Heading 1</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               <p class="learn">LEARN MORE</p>
             </div>
   
-            <div class="card">
+            <div class="part">
               <div class="img"></div>
               <h2 class="heading">Heading 1</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -165,15 +171,15 @@ input::placeholder{
   
         <div class="footer">
           <div class="subscribe">
-            <div class="sub">
-              <p class="sub_p">Subscribe Us</p>
+            <div class="inside-subscribe">
+              <p class="palette">Subscribe Us</p>
             </div>
-            <div class="click">
-              <input class="sub_input" type="text" placeholder="Text box" />
-              <button class="sub_btn">submit</button>
+            <div class="submit">
+              <input class="inside-submit" type="text" placeholder="Text box" />
+              <button class="inside-button">submit</button>
             </div>
           </div>
-          <div class="copyright">
+          <div class="copyright-block">
               <p style="float: left;">COPYRIGHT @2020</p>
               <p style="float: right;">CEDCOSS Technologies</p>
           </div>
