@@ -23,8 +23,8 @@
     echo "<br>this is php";
     
    //this is a single line comment
-   /*this is a multi
-    line comment*/
+   /*this is
+    comment*/
     echo "<br>hi";
    ?>
    <?php
